@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* ############## NAVBAR ################ */
+.navbar{
+    background-image: linear-gradient(to right top, #6aecf2, #4fdcfe, #59c9ff, #7cb3fe, #a19aeb);
+    
+}
+.logo{
+    width: 30%;
+
+}
+.logo img{
+    width: 100%;
+}
+.nav-link a{
+    text-transform: uppercase;
+    
+    /* color: #555; */
+}
+.nav-link{
+    margin-left: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    background: #91edf1;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color:#59c9ff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px gray;
+    /* border-bottom: 1px solid #555; */
+}
+/* ############# NAVBAR ################ */
+/* ############## BODY ################# */
+.home{
+    background-image: url("../image/background1.png");
+    width: 100%;
+    height: 88vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brodcast{
+    background-image: linear-gradient(to left bottom, #31b6bc, #2eb1cf, #4faada, #76a0dc, #9a95d3);
+    color:whitesmoke;
+    font-size: 3px;
+}
+.bodyCaption{
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 2px 2px 10px #555;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%)
+}
+
+.bodyCaption h2{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 20px #333;
+}
+.bodyCaption h5{
+    font-size: 200%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 20px #333;
+    padding-bottom: 1rem
+}
+
+.btn-primary{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.btn-primary:hover{
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+/* ################### BODY END ################# */
+

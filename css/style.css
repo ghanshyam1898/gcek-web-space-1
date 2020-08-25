@@ -46,7 +46,7 @@ body{
     background-position: center;
 }
 .brodcast{
-    background-image: linear-gradient(to left bottom, #31b6bc, #2eb1cf, #4faada, #76a0dc, #9a95d3);
+    background-color: rgba(0,0,0,0.3);
     color:whitesmoke;
     font-size: 3px;
 }
@@ -64,7 +64,7 @@ body{
     padding: 30px 0;
     border-top-left-radius: 70px;
     border-bottom-right-radius: 70px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
     border: 10px inset #fff;
     
 }

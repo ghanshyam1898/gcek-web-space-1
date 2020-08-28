@@ -1,94 +1,116 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-
 }
+
+::selection {
+    background-color: #1eaaf0;
+    color: white;
+}
+
+
 /* ################ UTILITY CLASSES ############## */
-.padding{
+
+.padding {
     padding: 2rem auto;
 }
-.lg-heading{
+
+.lg-heading {
     font-size: 3.5rem;
     font-weight: 700;
 }
 
-.md-heading{
+.md-heading {
     font-size: 2rem;
 }
 
-.text-red{
-   color: #e63946; 
+.text-red {
+    color: #e63946;
 }
-.text-light{
-    color:#f4f4f4
+
+.text-light {
+    color: #f4f4f4;
 }
-.text-dark{
+
+.text-dark {
     color: #333;
 }
-.text-gray{
+
+.text-gray {
     color: #555;
 }
 
-.background-red{
-    background-color: #e63946; 
+.background-red {
+    background-color: #e63946;
 }
-.background-bluewhite{
+
+.background-bluewhite {
     background-color: #ddd;
- }
-.background-dark{
+}
+
+.background-dark {
     background-color: #333;
 }
-.background-greenwhite{
+
+.background-greenwhite {
     background-color: rgb(221, 241, 185);
 }
 
+
 /* ################ END UTILITY CLASSES ############## */
+
+
 /* ############## NAVBAR ################ */
-.navbar{
-    background-image: linear-gradient(to right top, #6aecf2, #4fdcfe, #59c9ff, #7cb3fe, #a19aeb);
-    
+
+.navbar {
+    background-image: linear-gradient( to right top, #6aecf2, #4fdcfe, #59c9ff, #7cb3fe, #a19aeb);
 }
 
-.nav-link a{
+.nav-link a {
     text-transform: uppercase;
-    
     /* color: #555; */
 }
-.nav-link{
+
+.nav-link {
     margin-left: 5px;
     border: 1px solid rgba(255, 255, 255, 0.404);
     background: #91edf1;
     border-radius: 5px;
 }
-.nav-link:hover{
-    background-color:#59c9ff;
+
+.nav-link:hover {
+    background-color: #59c9ff;
     border-radius: 5px;
     box-shadow: 4px 4px 10px gray;
     /* border-bottom: 1px solid #555; */
 }
+
+
 /* ############# NAVBAR ################ */
 
 
 /* ############## HOME BODY ################# */
-.home{
-    
-    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url("../image/background1.png");
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../image/background1.png');
     width: 100%;
     height: 88vh;
-    background-size:cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.brodcast{
-    background-color: rgba(0,0,0,0.3);
-    color:whitesmoke;
+
+.brodcast {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
     font-size: 3px;
 }
-.home .bodyCaption{
+
+.home .bodyCaption {
     color: white;
     font-family: 'Russo One', sans-serif;
     text-shadow: 2px 2px 10px #555;
@@ -96,96 +118,110 @@ body{
     position: absolute;
     top: 42%;
     left: 50%;
-    transform: translate(-50%,-10%);
+    transform: translate(-50%, -10%);
     width: 35%;
     z-index: 5;
     padding: 2em 0;
     border-top-left-radius: 4.2rem;
     border-bottom-right-radius: 4.2rem;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border: 1rem inset #fff;
-    
 }
 
-.bodyCaption h2{
+.bodyCaption h2 {
     font-size: 500%;
     text-transform: uppercase;
     text-shadow: 5px 5px 20px #333;
 }
-.bodyCaption h5{
+
+.bodyCaption h5 {
     font-size: 200%;
     text-transform: uppercase;
     text-shadow: 1px 1px 20px #333;
-    padding-bottom: 1rem
+    padding-bottom: 1rem;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: blueviolet;
     border: 1px solid blueviolet;
-    margin-left:2px ;
+    margin-left: 2px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: purple;
     border: 1px solid purple;
 }
 
+
 /* ################### BODY END ################# */
 
+
 /* ################## Contact Page ################### */
+
+
 /* ############# ADDRESS ############# */
-.contact-form{
-    padding: 2rem 0; 
-    background-color: beige;   
+
+.contact-form {
+    padding: 2rem 0;
+    background-color: beige;
 }
 
-.form-wrapper .address{
+.form-wrapper .address {
     width: 49%;
     height: 80vh;
     float: left;
     background-color: #f1fab7;
-    padding:0 1.2rem 1.2rem 1.2rem;
+    padding: 0 1.2rem 1.2rem 1.2rem;
 }
 
-.form-wrapper::after{
-    content: "";
+.form-wrapper::after {
+    content: '';
     clear: both;
     display: block;
 }
-.form-wrapper .address i{
-    font-size:2rem ;
+
+.form-wrapper .address i {
+    font-size: 2rem;
     display: inline-block;
     margin-right: 0.7rem;
 }
-.email{
+
+.email {
     width: 45%;
     float: left;
 }
-.phone{
+
+.phone {
     width: 45%;
     float: right;
 }
-.email-phone{
-    content: "";
+
+.email-phone {
+    content: '';
     clear: both;
     display: block;
 }
-.form-wrapper .address h2{
+
+.form-wrapper .address h2 {
     display: inline-block;
     margin-top: 1rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: none;
 }
-.form-wrapper .address img{
-    margin-top:1.8em;
-    width:95% ;
+
+.form-wrapper .address img {
+    margin-top: 1.8em;
+    width: 95%;
     height: 20rem;
     object-fit: cover;
     object-position: right;
 }
 
+
 /* ############## FORM ################ */
-.form-wrapper .form{
+
+.form-wrapper .form {
     /* border: 1px dotted black; */
     background-color: aliceblue;
     width: 49%;
@@ -193,121 +229,169 @@ body{
     float: right;
     font-size: 1.4rem;
 }
-.form-group{
+
+.form-group {
     margin: 0.7rem auto;
 }
-.form h2 span{
+
+.form h2 span {
     font-size: 2.5rem;
     font-weight: 500;
     color: #e63946;
 }
-.form-wrapper p{
+
+.form-wrapper p {
     padding-top: 1rem;
     font-size: 1rem;
 }
-.form .hr{
+
+.form .hr {
     border-top: 0.3rem solid #e63946;
     width: 90%;
-
 }
 
-.form-group label{
+.form-group label {
     font-weight: 500;
     display: block;
 }
-.form-group input{
+
+.form-group input {
     width: 90%;
     height: 1.9rem;
 }
 
-.form-group label::after{
+.form-group label::after {
     content: ' *';
     color: #e63946;
 }
-.form-group textarea{
-    width: 90% ;
-    height:170px;
+
+.form-group textarea {
+    width: 90%;
+    height: 170px;
     margin-top: 0.7rem;
 }
 
-.btn-form{
+.btn-form {
     padding: 0.6rem 1.5rem;
     text-align: center;
     background-color: rgb(241, 106, 241);
     /* text-transform: uppercase; */
     font-size: 1rem;
     border-radius: 0.3rem;
-    border:none;
-    margin:0.3rem 12rem;
+    border: none;
+    margin: 0.3rem 12rem;
 }
-.btn-form:hover{
+
+.btn-form:hover {
     background-color: rgb(155, 37, 170);
     /* box-shadow: 2px 2px 10px #555; */
 }
-
-
-
-
-
 
 
 /* ################## End Contact Page ################### */
 
 
 /* ################## Footer and connect Page ################### */
-.social a{
-    font-size: 4.5em;
-    margin: 1rem;
-}
-.connect hr{
-    border: 1px solid black;
-    /* width: 30%; */
-    
-}
-   
-.connect h2{
-    text-transform: uppercase;
-}
-.fa-facebook{
-   color: #3b5998;
-}
-.fa-twitter{
-    color: #00aced;
-}
-.fa-instagram{
-    color: #517fa4;
-}
-.fa-youtube{
-    color: #bb0000;
+
+.social {
+    padding-bottom: 30px;
 }
 
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-instagram:hover,
-.fa-youtube:hover{
-    color: #d5d5d5;
+.social a {
+    font-size: 2.4rem;
+    margin: 1rem;
 }
-footer{
-    background-color: #3f3f3f;
-    color: #d5d5d5;
-    padding-top:1rem;
+
+.connect h2 {
+    text-transform: uppercase;
 }
-footer .footer-tag{
+
+.fab {
+    transition: all 0.5s ease;
+}
+
+.fa-facebook {
+    color: #3b5999;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.fa-youtube {
+    color: #cd201f;
+}
+
+.fab:hover {
+    color: #d5d5d5;
+    transform: scale(1.1);
+}
+
+.col-md-4 h5 {
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+footer {
+    background-color: #1b2a3b;
+    color: #d5d5d5;
+    padding: 1.5rem 0;
+}
+
+footer .footer-tag {
     /* text-align: center; */
     align-content: center;
 }
-footer hr{
-    border-top: 1px solid #d5d5d5;
+
+footer hr {
+    border-top: 1px solid #afafafa6;
     /* width: 50%; */
-    
 }
-footer .col-12 hr:first-of-type{
+
+footer .col-12 hr:first-of-type {
     width: 100%;
 }
-footer img{
-    width:3rem;
+
+footer img {
+    width: 3rem;
     margin: 0.2rem auto;
 }
-   
+
+
 /* ################## End Footer and conect Page ################### */
 
+
+/* ################## Committee Page Start ################### */
+
+.committee {
+    text-align: center;
+}
+
+.committee h2 {
+    margin: 40px 0;
+}
+
+.tab {
+    margin: 0 200px;
+    margin-bottom: 60px;
+}
+
+.theading {
+    color: #fff;
+    background-color: #1b2a3b;
+}
+
+.legend-even {
+    background-color: #59bef0;
+}
+
+.legend-odd {
+    background-color: #4fced4;
+}
+
+
+/* ################### Committee Page End #################### */

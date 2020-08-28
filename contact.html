@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="contact-html">
 
 <head>
 	<title></title>
@@ -7,58 +7,140 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://kit.fontawesome.com/353131f6ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-		<div class="container-fluid">
-		<a class="navbar-brand logo" href="#"><img  src="./image/gcek_logo3.png" alt=""></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<a class="navbar-brand" href="#"><img src="./image/gcek_logo3.png" alt=""></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
 		</button>
-
+	  
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle navAbout" href="#" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						About
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="./about.html">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
+		  <ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="./index.html">Home</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="./about.html">About</a>
+			  </li>
+			<li class="nav-item active">
+				<a class="nav-link" href="./committee.html">Committee</a>
+			  </li>
+			<li class="nav-item active">
+			<a class="nav-link" href="./submission.html">Submission</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="./theme.html">Theme</a>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link" href="./contact.html">Contact </a>
+			  </li>
+		  </ul>
+		</div>
+	  </nav>
+	<section class="contact-form">
+		<div class="container">
+			<div class="form-wrapper">
+				<div class="address">
+					<div class="address-group">
+						<i class="fas fa-map-marker-alt fa-3x text-red"></i>
+						<h2 class="text-gray md-heading">location</h2>
+						<p>Gov. College Of Engineering,Kalahandi<br>
+						At P.O:Bandopala,Bhawanipatna<br>
+						Dist: Kalahandi<br>
+						pin: 766002,odisha</p>
 					</div>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle navConference" href="#" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Conference
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Something else here</a>
+					<div class="email-phone">
+						<div class="address-group email">
+							<i class="far fa-envelope fa-3x text-red"></i>
+							<h2 class="text-gray md-heading">email</h2>
+							<p>principalgcek@gmail.com</p>
+						</div>
+						<div class="address-group phone">
+							<i class="fas fa-phone-square-alt fa-3x text-red"></i>
+							<h2 class="text-gray md-heading">call</h2>
+							<p>###-###-####</p>
+						</div>
 					</div>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="./contact.html">Contact</a>
-				</li>
-			</ul>
-
+					<img src="./image/background2.png" alt="company">
+				</div>
+				<form class="form">
+					<h2><span>C</span>ontact <span>U</span>s</h2>
+					<hr class="hr">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input id="name" type="text">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input id="email" type="email">
+					</div>
+					<div class="form-group">
+						<label for="number">Number</label>
+						<input id="number" type="number">
+					</div>
+					<div class="form-group">
+						<p>Write your query bellow</p>
+						<textarea id="query" ></textarea>
+					</div>
+					<button class="btn-form"type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<div class="container connect">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h2>Connect</h2>
+				<hr>
+			</div>
+			
+			<div class="col-12 social padding">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
 		</div>
 	</div>
-    </nav>
-    <div class="contact">
-        <h1>this is the contact page</h1>
-    </div>
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="{%static 'img/img/gcek_logo2.png'%}" alt="logo of gcek">
+					<hr>
+					<p>##########</p>
+					<p>principalgcek@gmail.com</p>
+					<p>bandopala,bhwanipatna</p>
+					<p>kalahandi,odisha,766002</p>
+				</div>
+				<div class="col-md-4">
+					<hr>
+					<h5>Class Timing</h5>
+					<hr>
+					<p>Monday-Saturday</p>
+					<p>First Half : 9am-12am</p>
+					<p>Second Hlaf : 2pm-5pm</p>
+					<p>Sunday : closed</p>
+				</div>
+				<div class="col-md-4">
+					<hr>
+					<h5>Stats</h5>
+					<hr>
+					<p>over 100 Faculty</p>
+					<p>over 2000 studetns</p>  
+				</div>
+				<div class="col-12">
+					<hr class="last">
+					<h5>&copy; gcek.com</h5>
+				</div>
+			</div>
+		</div>
+		</footer>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

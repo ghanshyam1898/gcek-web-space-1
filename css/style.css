@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -77,17 +76,19 @@ body {
 }
 
 .nav-link {
-    margin-left: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.404);
-    background: #91edf1;
+    margin-left: 10px;
+    border: 1px solid rgba(218, 245, 255, 0.404);
     border-radius: 5px;
+    color: cornsilk;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
 }
 
 .nav-link:hover {
     background-color: #59c9ff;
     border-radius: 5px;
     box-shadow: 4px 4px 10px gray;
-    /* border-bottom: 1px solid #555; */
+    transform: scale(1.05);
 }
 
 
@@ -96,74 +97,134 @@ body {
 
 /* ############## HOME BODY ################# */
 
-.home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../image/background1.png');
-    width: 100%;
-    height: 88vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .brodcast {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #293f58;
     color: whitesmoke;
     font-size: 3px;
 }
 
-.home .bodyCaption {
-    color: white;
-    font-family: 'Russo One', sans-serif;
-    text-shadow: 2px 2px 10px #555;
-    text-align: center;
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -10%);
-    width: 35%;
-    z-index: 2;
-    padding: 2em 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 1rem;
-}
-.organisation{
-    float: left;
-    width:48%;
-}
-.inaguration{
-    float: right;
-    width: 48%;
-}
-.details::after{
-    content: "";
-    clear: both;
-    display: block;
-}
-
-.bodyCaption h2 {
-    font-size: 500%;
-    text-transform: uppercase;
-    text-shadow: 5px 5px 20px #333;
-}
-
-.bodyCaption h5 {
-    font-size: 200%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 20px #333;
-    padding-bottom: 1rem;
-}
-
 .btn-primary {
-    background-color: blueviolet;
-    border: 1px solid blueviolet;
-    margin-left: 2px;
+    margin-top: 20px;
+    padding: 10px 20px;
 }
 
-.btn-primary:hover {
-    background-color: purple;
-    border: 1px solid purple;
+.btn-primary i {
+    text-align: center;
+    font-size: 2.4rem;
 }
 
+.btn-primary a {
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    margin: 1rem 5rem;
+}
+
+.info {
+    padding-top: 3rem;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+}
+
+.info h2 {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+}
+.info h3 {
+    font-size: 1.2rem;
+}
+
+.info p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #041d8b;
+}
+
+.border {
+    box-shadow: -41px 10px 40px 0px #1eaaf0;
+    border-radius: 100px 0;
+    overflow: hidden;
+}
+
+.smdip{
+    background: #7cb3fe;
+    padding: 1rem;
+    margin-top: 6.2rem;
+    text-align: center;
+
+}
+.smdip h1{
+    text-transform: uppercase;
+}
+/* invitedSpeakers */
+.invitedSpeakers{
+    background: #f1fdb7;
+}
+.invitedSpeakers .speaker-heading{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    text-shadow: 2px 1px 10px #333;
+}
+.invitedSpeakers .speaker-heading h1{
+    padding-top: 3rem;
+}
+.invitedSpeakers img{
+    border-radius: 40%;
+    overflow:hidden ;
+}
+.card{
+    margin: 1rem;
+    box-shadow: 5px 2px 10px 0 #1eaaf0;
+    transition: all 0.6s ease;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.row{
+    padding-left: 10rem;
+    align-content: center;
+}
+/* sponser */
+.sponsor{
+    text-align: center;
+    background: rgb(255, 251, 233);
+}
+.sponsor-heading h1{
+    font-family: 'Russo One', sans-serif;
+    border-bottom: 2px solid #555;
+}
+.sponsor-logo img{
+    width:500px;
+    height: auto;
+}
+/* venue */
+.map{
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url("../image/gcek-map.png");
+    position: relative;
+    width: 100%;
+    height: 38rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.map h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px #333;
+}
 
 /* ################### BODY END ################# */
 
@@ -385,6 +446,9 @@ footer img {
 
 .committee h2 {
     margin: 40px 0;
+    color: rgb(14, 7, 19);
+    border-bottom: 2px solid  #71d0ff;
+    display: inline-block;
 }
 
 .tab {
@@ -407,3 +471,41 @@ footer img {
 
 
 /* ################### Committee Page End #################### */
+
+/* ############ AIAMATION ########### */
+.loader {
+    filter: hue-rotate(0deg);
+    color: linear-gradient(45deg, #0f8, #08f);
+    animation: hue 10000ms infinite linear;
+}
+  
+  @keyframes spinify {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    33% {
+      transform: translate(0px, 24px);
+      border-radius: 100%;
+      width: 10px;
+      height: 10px;
+    }
+    66% {
+      transform: translate(0px, -16px);
+    }
+  
+    88% {
+      transform: translate(0px, 4px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  @keyframes hue {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+/* ############ AIAMATION END ########### */

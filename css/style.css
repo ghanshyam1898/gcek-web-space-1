@@ -15,50 +15,29 @@ body {
 
 /* ################ UTILITY CLASSES ############## */
 
-.padding {
-    padding: 2rem auto;
+.padding-1 {
+    padding-top: 1rem;
+}
+.padding-2 {
+    padding-top: 2rem;
+}
+.margin-1 {
+    margin-top: 1rem;
+}
+.margin-2 {
+    margin-top: 2rem;
 }
 
 .lg-heading {
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .md-heading {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
-.text-red {
-    color: #e63946;
-}
 
-.text-light {
-    color: #f4f4f4;
-}
-
-.text-dark {
-    color: #333;
-}
-
-.text-gray {
-    color: #555;
-}
-
-.background-red {
-    background-color: #e63946;
-}
-
-.background-bluewhite {
-    background-color: #ddd;
-}
-
-.background-dark {
-    background-color: #333;
-}
-
-.background-greenwhite {
-    background-color: rgb(221, 241, 185);
-}
 
 
 /* ################ END UTILITY CLASSES ############## */
@@ -73,6 +52,9 @@ body {
 .nav-link a {
     text-transform: uppercase;
     /* color: #555; */
+}
+.navbar .navbar-brand img{
+    width: 27rem
 }
 
 .nav-link {
@@ -100,7 +82,7 @@ body {
 .brodcast {
     background-color: #293f58;
     color: whitesmoke;
-    font-size: 3px;
+    font-size: 2px;
 }
 
 .btn-primary {
@@ -121,7 +103,7 @@ body {
 
 .main {
     display: flex;
-    margin: 1rem 5rem;
+    margin: auto 5rem;
 }
 
 .info,
@@ -157,39 +139,45 @@ body {
     overflow: hidden;
 }
 
-.smdip {
+.smpid {
     background: #7cb3fe;
-    padding: 1rem;
-    margin-top: 3.7rem;
+    padding: 0.6rem;
+    margin-top: 3rem;
     text-align: center;
 }
 
-.smdip h1 {
+.smpid h1 {
     text-transform: uppercase;
 }
 
 
 /* invitedSpeakers */
 
-.invitedSpeakers {
-    background: #f1fdb7;
+.speakers {
+    background: #c2f06d;
     padding-bottom: 3rem;
     margin-bottom: 2rem;
 }
 
-.invitedSpeakers .speaker-heading {
+.speakers .speaker-heading {
     font-family: 'Russo One', sans-serif;
     text-align: center;
     text-shadow: 2px 1px 10px #333;
 }
 
-.invitedSpeakers .speaker-heading h1 {
+.speakers .speaker-heading h1 {
     padding-top: 3rem;
 }
 
-.invitedSpeakers img {
-    overflow: hidden;
+.speakers .card img{
+    border-radius: 30%;
+    width: 90%;
+    
 }
+.speakers .card{
+    align-items: center;
+}
+
 
 .card {
     margin: 1rem;
@@ -231,7 +219,7 @@ body {
 .venue {
     background-color: rgb(211, 211, 211);
     position: relative;
-    height: 85vh;
+    height: 500px;
 }
 
 .venue h1 {
@@ -255,7 +243,22 @@ body {
 
 /* ################### BODY END ################# */
 
-
+/* ########## About ############# */
+.about-head{
+    text-align: center;
+}
+.about-head h1{
+    color: rgb(75, 60, 82);
+    font-weight: 700;
+}
+.inst{
+    background: #b9cbf1;
+    padding: none;
+}
+.inst h2{
+    border-bottom: 2px solid #e4405f;
+}
+/* ########## end About ############# */
 /* ################## Contact Page ################### */
 
 
@@ -266,40 +269,10 @@ body {
     background-color: beige;
 }
 
-.form-wrapper .address {
-    width: 49%;
-    height: 80vh;
-    float: left;
-    background-color: #f1fab7;
-    padding: 0 1.2rem 1.2rem 1.2rem;
-}
-
-.form-wrapper::after {
-    content: '';
-    clear: both;
-    display: block;
-}
-
 .form-wrapper .address i {
     font-size: 2rem;
     display: inline-block;
     margin-right: 0.7rem;
-}
-
-.email {
-    width: 45%;
-    float: left;
-}
-
-.phone {
-    width: 45%;
-    float: right;
-}
-
-.email-phone {
-    content: '';
-    clear: both;
-    display: block;
 }
 
 .form-wrapper .address h2 {
@@ -310,7 +283,7 @@ body {
     margin-bottom: none;
 }
 
-.form-wrapper .address img {
+.place-image img {
     margin-top: 1.8em;
     width: 95%;
     height: 20rem;

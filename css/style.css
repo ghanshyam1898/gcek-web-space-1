@@ -18,12 +18,15 @@ body {
 .padding-1 {
     padding-top: 1rem;
 }
+
 .padding-2 {
     padding-top: 2rem;
 }
+
 .margin-1 {
     margin-top: 1rem;
 }
+
 .margin-2 {
     margin-top: 2rem;
 }
@@ -36,8 +39,6 @@ body {
 .md-heading {
     font-size: 1rem;
 }
-
-
 
 
 /* ################ END UTILITY CLASSES ############## */
@@ -53,8 +54,9 @@ body {
     text-transform: uppercase;
     /* color: #555; */
 }
-.navbar .navbar-brand img{
-    width: 27rem
+
+.navbar .navbar-brand img {
+    width: 27rem;
 }
 
 .nav-link {
@@ -169,15 +171,14 @@ body {
     padding-top: 3rem;
 }
 
-.speakers .card img{
+.speakers .card img {
     border-radius: 30%;
     width: 90%;
-    
-}
-.speakers .card{
-    align-items: center;
 }
 
+.speakers .card {
+    align-items: center;
+}
 
 .card {
     margin: 1rem;
@@ -204,6 +205,7 @@ body {
 }
 
 .sponsor-heading h1 {
+    display: inline-block;
     font-family: 'Russo One', sans-serif;
     border-bottom: 2px solid #555;
 }
@@ -243,22 +245,33 @@ body {
 
 /* ################### BODY END ################# */
 
+
 /* ########## About ############# */
-.about-head{
+
+.about-head {
     text-align: center;
 }
-.about-head h1{
-    color: rgb(75, 60, 82);
+
+.about-head h1 {
     font-weight: 700;
+    margin: 30px 0;
+    border-bottom: 2px solid #71d0ff;
+    display: inline-block;
 }
-.inst{
+
+.inst {
     background: #b9cbf1;
     padding: none;
 }
-.inst h2{
+
+.inst h2 {
     border-bottom: 2px solid #e4405f;
 }
+
+
 /* ########## end About ############# */
+
+
 /* ################## Contact Page ################### */
 
 
@@ -367,7 +380,7 @@ body {
 /* ################## Footer and connect Page ################### */
 
 .social {
-    padding-bottom: 30px;
+    padding: 20px;
 }
 
 .social a {
@@ -451,9 +464,18 @@ footer img {
     display: inline-block;
 }
 
-.tab {
-    margin: 0 200px;
-    margin-bottom: 60px;
+@media (min-width: 768px) {
+    .tab {
+        margin: 0 80px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .tab {
+        margin: 0 200px;
+        margin-bottom: 60px;
+    }
 }
 
 .theading {

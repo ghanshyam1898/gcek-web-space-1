@@ -124,7 +124,8 @@ body {
     margin: 1rem 5rem;
 }
 
-.info , .carousel-gcek{
+.info,
+.carousel-gcek {
     padding-top: 2.5rem;
 }
 
@@ -139,6 +140,7 @@ body {
     font-weight: 700;
     display: inline-block;
 }
+
 .info h3 {
     font-size: 1.2rem;
 }
@@ -155,76 +157,101 @@ body {
     overflow: hidden;
 }
 
-.smdip{
+.smdip {
     background: #7cb3fe;
     padding: 1rem;
     margin-top: 3.7rem;
     text-align: center;
-
 }
-.smdip h1{
+
+.smdip h1 {
     text-transform: uppercase;
 }
+
+
 /* invitedSpeakers */
-.invitedSpeakers{
+
+.invitedSpeakers {
     background: #f1fdb7;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
 }
-.invitedSpeakers .speaker-heading{
+
+.invitedSpeakers .speaker-heading {
     font-family: 'Russo One', sans-serif;
     text-align: center;
     text-shadow: 2px 1px 10px #333;
 }
-.invitedSpeakers .speaker-heading h1{
+
+.invitedSpeakers .speaker-heading h1 {
     padding-top: 3rem;
 }
-.invitedSpeakers img{
-    border-radius: 40%;
-    overflow:hidden ;
+
+.invitedSpeakers img {
+    overflow: hidden;
 }
-.card{
+
+.card {
     margin: 1rem;
+    padding: 0;
     box-shadow: 5px 2px 10px 0 #1eaaf0;
     transition: all 0.6s ease;
+}
 
+.card:hover {
+    transform: scale(1.03);
 }
-.card:hover{
-    transform: scale(1.1);
-}
-.row{
+
+.invitedSpeakers .row {
     padding-left: 10rem;
     align-content: center;
 }
-/* sponser */
-.sponsor{
+
+
+/* sponsor */
+
+.sponsor {
     text-align: center;
-    background: rgb(255, 251, 233);
+    background: rgb(255, 255, 255);
 }
-.sponsor-heading h1{
+
+.sponsor-heading h1 {
     font-family: 'Russo One', sans-serif;
     border-bottom: 2px solid #555;
 }
-.sponsor-logo img{
-    width:500px;
+
+.sponsor img {
+    width: 500px;
     height: auto;
 }
+
+
 /* venue */
-.map{
-    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url("../image/gcek-map.png");
+
+.venue {
+    background-color: rgb(211, 211, 211);
     position: relative;
-    width: 100%;
-    height: 38rem;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 85vh;
 }
-.map h2{
+
+.venue h1 {
+    font-size: 2.6rem;
+    text-transform: capitalize;
     position: absolute;
-    top: 50%;
+    top: 2%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-weight: 700;
-    text-shadow: 4px 4px 10px #333;
+    transform: translateX(-50%);
+    font-family: 'Russo One', sans-serif;
+    border-bottom: 2px solid #555;
 }
+
+.map {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 /* ################### BODY END ################# */
 
@@ -447,7 +474,7 @@ footer img {
 .committee h2 {
     margin: 40px 0;
     color: rgb(14, 7, 19);
-    border-bottom: 2px solid  #71d0ff;
+    border-bottom: 2px solid #71d0ff;
     display: inline-block;
 }
 
@@ -472,42 +499,44 @@ footer img {
 
 /* ################### Committee Page End #################### */
 
+
 /* ############ AIAMATION ########### */
+
 .loader {
     filter: hue-rotate(0deg);
     color: linear-gradient(45deg, #0f8, #08f);
     animation: hue 10000ms infinite linear;
 }
-  
-  @keyframes spinify {
+
+@keyframes spinify {
     0% {
-      transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
     }
     33% {
-      transform: translate(0px, 24px);
-      border-radius: 100%;
-      width: 10px;
-      height: 10px;
+        transform: translate(0px, 24px);
+        border-radius: 100%;
+        width: 10px;
+        height: 10px;
     }
     66% {
-      transform: translate(0px, -16px);
+        transform: translate(0px, -16px);
     }
-  
     88% {
-      transform: translate(0px, 4px);
+        transform: translate(0px, 4px);
     }
     100% {
-      transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
     }
-  }
-  @keyframes hue {
+}
+
+@keyframes hue {
     0% {
-      filter: hue-rotate(0deg);
+        filter: hue-rotate(0deg);
     }
     100% {
-      filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
     }
-  }
+}
 
 
 /* ############ AIAMATION END ########### */

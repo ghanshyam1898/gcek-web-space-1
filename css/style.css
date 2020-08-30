@@ -124,8 +124,8 @@ body {
     margin: 1rem 5rem;
 }
 
-.info {
-    padding-top: 3rem;
+.info , .carousel-gcek{
+    padding-top: 2.5rem;
 }
 
 .info a {
@@ -158,7 +158,7 @@ body {
 .smdip{
     background: #7cb3fe;
     padding: 1rem;
-    margin-top: 6.2rem;
+    margin-top: 3.7rem;
     text-align: center;
 
 }
@@ -508,4 +508,6 @@ footer img {
       filter: hue-rotate(360deg);
     }
   }
+
+
 /* ############ AIAMATION END ########### */

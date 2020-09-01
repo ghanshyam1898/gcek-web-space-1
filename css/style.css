@@ -173,8 +173,23 @@ body {
 }
 
 .speakers .card img {
-    border-radius: 30%;
-    width: 90%;
+    height: 55%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h4 {
+    font-size: 1.6rem;
+    color: #041d8b;
+    font-weight: 700;
+}
+
+.card-body h5 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1eaaf0;
 }
 
 .speakers .card {
@@ -183,6 +198,7 @@ body {
 
 .card {
     margin: 1rem;
+    height: 32rem;
     padding: 0;
     box-shadow: 5px 2px 10px 0 #1eaaf0;
     transition: all 0.6s ease;
@@ -248,9 +264,11 @@ body {
 
 
 /* ########## About ############# */
-.about{
+
+.about {
     background: #e2fae1;
 }
+
 .about-head {
     text-align: center;
 }
@@ -481,6 +499,7 @@ footer img {
         margin-bottom: 60px;
     }
 }
+
 .theading {
     color: #fff;
     background-color: #1b2a3b;
@@ -497,19 +516,31 @@ footer img {
 
 /* ################### Committee Page End #################### */
 
+
 /* ############ SUBMISSION ############# */
-.submission h2{
+
+.submission h2 {
     border-bottom: 2px solid #e4405f;
 }
+
+
 /* ############ END SUBMISSION ############# */
+
+
 /* ############ Theme ############# */
-.theme h2{
+
+.theme h2 {
     border-bottom: 2px solid #e4405f;
 }
-.theme ul{
+
+.theme ul {
     padding-left: 1rem;
 }
+
+
 /* ############ END Theme ############# */
+
+
 /* ############ AIAMATION ########### */
 
 .loader {

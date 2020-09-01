@@ -40,6 +40,9 @@ body {
     font-size: 1.5 rem;
     font-weight: 700;
 }
+.text-red{
+    color: #e4405f;
+}
 
 
 /* ################ END UTILITY CLASSES ############## */
@@ -85,7 +88,7 @@ body {
 .brodcast {
     background-color: #293f58;
     color: whitesmoke;
-    font-size: 2px;
+    height: 1.5rem;
 }
 
 .btn-primary {
@@ -144,8 +147,8 @@ body {
 
 .smpid {
     background: #7cb3fe;
-    padding: 0.6rem;
-    margin-top: 3rem;
+    padding: 0.3rem;
+    margin-top: 3.4rem;
     text-align: center;
 }
 
@@ -173,7 +176,10 @@ body {
 }
 
 .speakers .card img {
-    height: 55%;
+    border-radius: 48%;
+    height: 47%;
+    width: 72%;
+    box-shadow: 5px 5px 20px 0 #555;
 }
 
 .card-body {
@@ -198,7 +204,7 @@ body {
 
 .card {
     margin: 1rem;
-    height: 32rem;
+    height: 25rem;
     padding: 0;
     box-shadow: 5px 2px 10px 0 #1eaaf0;
     transition: all 0.6s ease;
@@ -304,13 +310,13 @@ body {
     background-color: beige;
 }
 
-.form-wrapper .address i {
+.form-wrapper i {
     font-size: 2rem;
     display: inline-block;
     margin-right: 0.7rem;
 }
 
-.form-wrapper .address h2 {
+.form-wrapper h2 {
     display: inline-block;
     margin-top: 1rem;
     text-transform: uppercase;
@@ -320,79 +326,10 @@ body {
 
 .place-image img {
     margin-top: 1.8em;
-    width: 95%;
-    height: 20rem;
+    width: 80%;
+    height: 10rem;
     object-fit: cover;
     object-position: right;
-}
-
-
-/* ############## FORM ################ */
-
-.form-wrapper .form {
-    /* border: 1px dotted black; */
-    background-color: aliceblue;
-    width: 49%;
-    height: 80vh;
-    float: right;
-    font-size: 1.4rem;
-}
-
-.form-group {
-    margin: 0.7rem auto;
-}
-
-.form h2 span {
-    font-size: 2.5rem;
-    font-weight: 500;
-    color: #e63946;
-}
-
-.form-wrapper p {
-    padding-top: 1rem;
-    font-size: 1rem;
-}
-
-.form .hr {
-    border-top: 0.3rem solid #e63946;
-    width: 90%;
-}
-
-.form-group label {
-    font-weight: 500;
-    display: block;
-}
-
-.form-group input {
-    width: 90%;
-    height: 1.9rem;
-}
-
-.form-group label::after {
-    content: ' *';
-    color: #e63946;
-}
-
-.form-group textarea {
-    width: 90%;
-    height: 170px;
-    margin-top: 0.7rem;
-}
-
-.btn-form {
-    padding: 0.6rem 1.5rem;
-    text-align: center;
-    background-color: rgb(241, 106, 241);
-    /* text-transform: uppercase; */
-    font-size: 1rem;
-    border-radius: 0.3rem;
-    border: none;
-    margin: 0.3rem 12rem;
-}
-
-.btn-form:hover {
-    background-color: rgb(155, 37, 170);
-    /* box-shadow: 2px 2px 10px #555; */
 }
 
 
@@ -482,7 +419,7 @@ footer img {
 .committee h2 {
     margin: 30px 0;
     color: rgb(14, 7, 19);
-    border-bottom: 2px solid #71d0ff;
+    border-bottom: 2px solid #e4405f;
     display: inline-block;
 }
 

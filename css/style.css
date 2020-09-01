@@ -65,6 +65,7 @@ body {
 }
 
 .nav-link {
+        padding-left: 10px;
     margin-left: 10px;
     border: 1px solid rgba(218, 245, 255, 0.404);
     border-radius: 5px;

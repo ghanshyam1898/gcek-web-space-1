@@ -40,7 +40,8 @@ body {
     font-size: 1.5 rem;
     font-weight: 700;
 }
-.text-red{
+
+.text-red {
     color: #e4405f;
 }
 
@@ -306,17 +307,34 @@ body {
 /* ############# ADDRESS ############# */
 
 .contact-form {
+    text-align: center;
     padding: 2rem 0;
     background-color: beige;
 }
 
-.form-wrapper i {
-    font-size: 2rem;
+.contact-form h1 {
+    font-weight: 700;
+    margin: 30px 0;
+    border-bottom: 3px solid #e4405f;
     display: inline-block;
-    margin-right: 0.7rem;
+}
+
+.form-wrapper i {
+    padding: 2rem 0.2rem;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+
+.form-wrapper p {
+    font-size: 1.2rem;
+}
+
+.form-wrapper {
+    padding: 2rem 1rem;
 }
 
 .form-wrapper h2 {
+    font-size: 1.6rem;
     display: inline-block;
     margin-top: 1rem;
     text-transform: uppercase;
@@ -324,12 +342,8 @@ body {
     margin-bottom: none;
 }
 
-.place-image img {
-    margin-top: 1.8em;
-    width: 80%;
-    height: 10rem;
-    object-fit: cover;
-    object-position: right;
+.phone li {
+    list-style: none;
 }
 
 

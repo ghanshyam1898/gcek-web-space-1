@@ -54,7 +54,8 @@ body {
 .nav-2 {
     background-image: linear-gradient( to right top, #6aecf2, #4fdcfe, #59c9ff, #7cb3fe, #a19aeb);
 }
-.nav-1{
+
+.nav-1 {
     /* background-image:linear-gradient(to right top, #6aecf2, #4fdcfe, #59c9ff, #7cb3fe, #a19aeb); */
     background-color: #1cc491;
 }
@@ -85,7 +86,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color:rgba(218, 245, 255, 0.404);
+    background-color: rgba(218, 245, 255, 0.404);
     border-radius: 5px;
     box-shadow: 4px 4px 10px gray;
     transform: scale(1.03);
@@ -127,6 +128,7 @@ body {
 .info,
 .carousel-gcek {
     padding-top: 2.5rem;
+    padding-right: 4rem;
 }
 
 .info a {
@@ -283,7 +285,6 @@ body {
 
 /* ########## About ############# */
 
-
 .about-head {
     text-align: center;
 }
@@ -348,12 +349,14 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: none;
-    border-bottom:2px solid #e4405f;
+    border-bottom: 2px solid #e4405f;
 }
-.form-wrapper h4{
+
+.form-wrapper h4 {
     border-bottom: 2px solid #111;
     display: inline-block;
 }
+
 .phone li {
     list-style: none;
 }
@@ -548,3 +551,4 @@ footer img {
 .keyDates h2{
     border-bottom: 2px solid #e4405f;
 }
+/* ############ AIAMATION END ########### */

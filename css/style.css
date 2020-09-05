@@ -57,7 +57,7 @@ body {
 
 .nav-1 {
     /* background-image:linear-gradient(to right top, #6aecf2, #4fdcfe, #59c9ff, #7cb3fe, #a19aeb); */
-    background-color: #1cc491;
+    background-color:#076d07;
 }
 
 .nav-link a {
@@ -65,15 +65,17 @@ body {
     /* color: #555; */
 }
 
-.navbar .navbar-brand img {
-    width: 17rem;
-    height: 2.4rem;
+
+
+.logo-smpid img{
+    width: 4.5rem;
+    height: 4rem;
+}
+.logo-clg img{
+    width: 19rem;
+    height: 3rem;
 }
 
-.logo img{
-    width: 50px;
-    height: 50px;
-}
 
 .nav-link {
     font-size: 0.8rem;

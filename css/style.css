@@ -197,6 +197,12 @@ body {
     width: 72%;
     box-shadow: 5px 5px 20px 0 #555;
 }
+.organising-committee .card{
+    height: 180px;
+}
+.organising-committee .carousel{
+    height: 220px;
+}
 
 .card-body {
     text-align: center;
@@ -439,6 +445,9 @@ footer img {
 
 .committee {
     text-align: center;
+}
+.committee .legend{
+    text-align: left;
 }
 
 .committee h2 {

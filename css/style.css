@@ -57,7 +57,7 @@ body {
 
 .nav-1 {
     /* background-image:linear-gradient(to right top, #6aecf2, #4fdcfe, #59c9ff, #7cb3fe, #a19aeb); */
-    background-color:#076d07;
+    background-color: #076d07;
 }
 
 .nav-link a {
@@ -65,17 +65,15 @@ body {
     /* color: #555; */
 }
 
-
-
-.logo-smpid img{
+.logo-smpid img {
     width: 4.5rem;
     height: 4rem;
 }
-.logo-clg img{
+
+.logo-clg img {
     width: 19rem;
     height: 3rem;
 }
-
 
 .nav-link {
     font-size: 0.8rem;
@@ -197,10 +195,12 @@ body {
     width: 72%;
     box-shadow: 5px 5px 20px 0 #555;
 }
-.organising-committee .card{
+
+.organising-committee .card {
     height: 180px;
 }
-.organising-committee .carousel{
+
+.organising-committee .carousel {
     height: 220px;
 }
 
@@ -333,7 +333,6 @@ body {
     font-weight: 700;
     margin: 30px 0;
     border-bottom: 3px solid #e4405f;
-    
 }
 
 .form-wrapper i {
@@ -446,7 +445,8 @@ footer img {
 .committee {
     text-align: center;
 }
-.committee .legend{
+
+.committee .legend {
     text-align: left;
 }
 
@@ -493,13 +493,16 @@ footer img {
 .submission h2 {
     border-bottom: 2px solid #e4405f;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: white;
 }
-.submission button{
+
+.submission button {
     margin-bottom: 1rem;
 }
+
 
 /* ############ END SUBMISSION ############# */
 
@@ -516,6 +519,18 @@ footer img {
 
 
 /* ############ END Theme ############# */
+
+
+/* ############ Schedule Start ############# */
+
+
+/* ############ Schedule End ############# */
+
+.programme h2 {
+    border-bottom: 2px solid #e4405f;
+}
+
+.programme h3 {}
 
 
 /* ############ AIAMATION ########### */
@@ -559,7 +574,9 @@ footer img {
 
 /* ############ AIAMATION END ########### */
 
-.keyDates h2{
+.keyDates h2 {
     border-bottom: 2px solid #e4405f;
 }
+
+
 /* ############ AIAMATION END ########### */

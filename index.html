@@ -33,6 +33,12 @@
         <div class="navbar-brand">
             <h4>SMPID-2020</h4>
         </div>
+        <button type="button" class="btn btn-default mx-2" id="popcart" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="hi i am redeye">
+        
+        
+          Session Redirect
+        </button>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -377,6 +383,7 @@
     </footer>
 
 </body>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
     crossorigin="anonymous "></script>
@@ -390,5 +397,20 @@
     integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
     crossorigin=" anonymous "></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js "></script>
+<script>
+    $('#popcart').popover();
+    let popstr=`<ul id="poplist">
+    <li ><a href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m89bd1420cf25b6a8e05197d3ddbc688e" target="_blank">Inaugural Ceremony</a></li>
+    <li > <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m89bd1420cf25b6a8e05197d3ddbc688e" target="_blank">Session1</a></li>
+     <li > <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m2a86ae185ac0508bcac655e36eb38010" target="_blank">Session2</a></li>
+     <li > <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m82cf11ba77ab3ef05070f74477048bca" target="_blank">Session3</a></li>
+      <li > <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m57571bb8a432699738e75314a10c45e4" target="_blank">Session4</a></li>
+      <li >  <a  style="text-decoration: none;" href="https://govtcollegeofeng.webex.com/govtcollegeofeng/j.php?MTID=m57571bb8a432699738e75314a10c45e4" target="_blank">Valeditory Session</a></li>
+</ul>`
+document.getElementById("popcart").setAttribute('data-content', popstr);
+
+</script>
 
 </html>
+
+
